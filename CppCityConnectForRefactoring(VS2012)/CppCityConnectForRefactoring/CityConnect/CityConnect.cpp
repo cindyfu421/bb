@@ -75,7 +75,6 @@ void CityConnect::main() {
 
 void CityConnect::showToUser(string text) {
 	cout << text << endl;
-	cout << bb << endl;
 }
 
 string CityConnect::executeCommand(string userCommand) {
