@@ -57,9 +57,8 @@ void CityConnect::main() {
 		
 	while (true) {
 		cout << "Enter command:";
-		string command;
-		getline (cin, command);
-		string userCommand = command;
+		string userCommand;
+		getline (cin, userCommand);
 		string feedback = executeCommand(userCommand);
 		showToUser(feedback);	
 	}
